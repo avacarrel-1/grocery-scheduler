@@ -13,8 +13,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application
 COPY BACKEND/ .
 
-# Rename SERVER.py to server.py for proper Python module naming
-RUN mv SERVER.py server.py
+# List files to debug what was copied
+RUN ls -la
 
 # Create a simple .env file with placeholder values (will be overridden by Render env vars)
 RUN echo "MONGO_URL=mongodb+srv://avacarrel:PWih03O7JCO3fPze@grocery-scheduler-clust.6fxjap1.mongodb.net/?retryWrites=true&w=majority&appName=grocery-scheduler-cluster" > .env && \
