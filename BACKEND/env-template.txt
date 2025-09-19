@@ -1,0 +1,12 @@
+# MongoDB Configuration
+MONGO_URL=mongodb://localhost:27017
+DB_NAME=grocery_scheduler
+
+# CORS Configuration (comma-separated list of allowed origins)
+# For development, you can use: http://localhost:3000,http://localhost:3001
+# For production, replace with your actual frontend domain
+CORS_ORIGINS=http://localhost:3000,http://localhost:3001
+
+# Optional: Add other environment variables as needed
+# SECRET_KEY=your-secret-key-here
+# DEBUG=True

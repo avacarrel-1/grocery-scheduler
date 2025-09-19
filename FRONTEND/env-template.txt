@@ -1,0 +1,8 @@
+# Backend API URL
+# For development, this should point to your FastAPI backend
+# For production, replace with your actual backend domain
+REACT_APP_BACKEND_URL=http://localhost:8000
+
+# Optional: Add other React environment variables as needed
+# REACT_APP_API_KEY=your-api-key-here
+# REACT_APP_DEBUG=true
